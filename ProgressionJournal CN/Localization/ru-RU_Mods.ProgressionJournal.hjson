@@ -1,0 +1,511 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+UI: {
+	Title: Журнал Прогрессии
+	Subtitle: Гайд по экипировке с выбираемыми профилями прогрессии
+	Stage: Стадия
+	Class: Класс
+	InventoryButtonTooltip: Открыть журнал прогрессии
+	OverviewTab: Экипировка
+	PresetsTab: Сборки
+	BuildBuilderTab: Билдер
+	StageSelectorTitle: Этап прохождения
+	ProgressionModeToggleTooltip: Переключить режим прогрессии. Когда он включен, закрытые стадии остаются в списке как неизведанные.
+	LockedStageTooltip: Неизведанная стадия. Победите босса этой стадии, чтобы открыть ее.
+	StageConditionUnresolved: Условие открытия не найдено, поэтому стадия остаётся доступной.
+	ClassSelectorTitle: Выбор класса
+	LegendTitle: Типы рекомендаций
+	OverviewHeadline: Экипировка текущего этапа
+	OverviewDescription: Все вручную оцененные предметы для этого класса на текущем этапе.
+	RecommendedBlock: Сильное
+	AdditionalBlock: Используемое
+	NotRecommendedBlock: Слабое
+	UselessBlock: Очень слабое
+	FromGuideBlock: Из гайда
+	WikiRecommendationsBlock: Рекомендации
+	WikiRecommendationsTooltip: Этот раздел сформирован автоматически на основе источника «{0}». Рекомендации могут быть необъективными, содержать ошибки или предметы с прошлых этапов.
+	NewEquipmentBlock: Новая экипировка
+	AnyMechanicalBossEquipmentBlock: Общее для мех-боссов
+	AnyMechanicalBossEquipmentTooltip: Открывается после победы над первым механическим боссом.
+	NoNewEquipment: Новых предметов на этом этапе не найдено.
+	ProfileManagerTooltip: Выбрать профиль прогрессии
+	ProfileManagerTitle: Профили прогрессии
+	ProfileClose: Закрыть
+	ProfileVersionWarning: "[другая версия]"
+	ProfileManagerWarning: Функция профилей находится на ранней стадии тестирования и может содержать ошибки, дорабатываться или изменяться. Некоторые предметы могут быть ошибочно распределены по этапам. Если вы не уверены, сверяйтесь с достоверными источниками, пока функция не будет завершена.
+	PresetsHeadline: Конструктор билда
+	ClassPageTitle: Выбор класса
+	StageProgress: Этап {0} из {1}
+	EntriesCount: Записей: {0}
+	PresetsCount: Сборок: {0}
+	TierLegendRecommended: один из лучших вариантов на этапе
+	TierLegendAdditional: рабочий вариант на этапе
+	TierLegendNotRecommended: слабый вариант на этапе
+	TierLegendUseless: почти не стоит рассматривать
+	EntryContains: Содержит: {0}
+	EntrySingleItem: Один предмет
+	EntrySetCount: Комплект: {0}
+	Weapons: Оружие
+	ArmorLabel: Броня
+	ArmorSetFallbackName: "{0} броня"
+	ArmorSetFallbackNameAfter: Броня {0}
+	# Translators can extend these pipe-separated naming rules for their language.
+	ArmorSetPieceWords: броня|визор|капюшон|кираса|корона|маска|нагрудник|поножи|тиара|шлем|шляпа|штаны
+	ArmorSetPiecePhrases: головной убор
+	ArmorSetNameInflections: ый=ая|ой=ая|ые=ая|ий=яя|ие=яя
+	ArmorSetDefenseLabel: Суммарная защита
+	ArmorSetTotalStats: Эффекты частей брони
+	ArmorSetBonus: Бонус комплекта
+	ArmorSetBonusUnavailable: Не удалось определить бонус комплекта.
+	Accessories: Аксессуары
+	SupportWeaponTag: Вспомогательное
+	CombatBuffClassSpecificTag: Классовое
+	None: Ничего
+	EmptyState: Для этого класса и этой стадии записи пока не заполнены.
+	VanillaCombatBuffsTitle: Бафы
+	CombatBuffsTitle: Новые расходники
+	CombatBuffStations: Станции
+	CombatBuffPassive: Пассивные
+	CombatBuffBasic: Основное
+	CombatBuffPotions: Зелья
+	CombatBuffEternal: Вечные
+	CombatBuffFood: Еда
+	CombatBuffFlasks: Флаконы
+	SelectedItemEmpty: Предмет не выбран
+	SelectedItemSelectPrompt: Кликните по предмету в списке, чтобы увидеть его получение.
+	ReadyBuildsEmpty: Готовые билды для этого класса и этапа пока не заполнены.
+	SelectedItemNoData: Для этого предмета пока не удалось определить источник.
+	SelectedItemCrafts: Крафт
+	SelectedItemWorldGeneration: Генерация мира
+	SelectedItemDrops: Дроп
+	SelectedItemShops: Покупка
+	SelectedItemFishing: Рыбалка
+	SelectedItemShimmer: Мерцание
+	SelectedItemIngredients: Материалы
+	SelectedItemStations: Станции
+	SelectedItemDemonAltar: Демонический алтарь / Багровый алтарь
+	SelectedItemBottleStation: Поставленная бутылка / Алхимический столик
+	SelectedItemConditions: Условия
+	MurasamaSecurityChestCondition: Мурасама находится только в сундуке безопасности лаборатории Биоцентра в Преисподней.
+	AcidwoodTreeShakingSource: Кислотное дерево
+	AcidwoodFruitTreeShakingCondition: Может выпасть при рубке кислотных деревьев в Сернистом море.
+	DeliciousMeatDivineSwineOfferingCondition: Взаимодействуйте с существом, имея при себе 1 платиновую монету. Монета будет потрачена, а существо превратится в этот предмет.
+	DeliciousMeatDivineSwineAvailabilityCondition: Существо естественно появляется в космосе или на большой высоте. Его также можно создать, применив Очищающий порошок к свинке или золотой свинке.
+	QualitySlopGluttonyBlenderInteractionCondition: Используйте или ударьте установленный «Блендер чревоугодия», держа еду. Еда будет потрачена, а через 2 секунды выпадет «Качественное пойло» или «Отвратительное пойло».
+	QualitySlopGluttonyBlenderChanceCondition: Шанс получить «Качественное пойло»: длительность пищевого бафа в минутах × 0,5% для «Сытости», × 0,75% для «Хорошей сытости» или × 1% для «Изысканной сытости».
+	GluttonyBlenderAvailabilityCondition: Теневой торговец всегда продаёт «Блендер чревоугодия» за 10 золотых монет.
+	VanillaFruitTreeCuttingCondition: Может выпасть при рубке деревьев этого типа: {0}.
+	ModdedFruitTreeShakingCondition: Может выпасть при встряхивании деревьев этого типа: {0}.
+	ThoriumYewTreeSource: Тисовые деревья
+	ThoriumSnowyTreeSource: Снежные деревья
+	ThoriumDeadTreeSource: Мёртвые деревья
+	ThoriumSpookyTreeSource: Жуткие деревья
+	ThoriumSakuraTreeSource: Сакуры
+	CalamityAstralTreeSource: Астральные деревья и пальмы
+	CalamityAstralSnowTreeSource: Астральные снежные деревья
+	CalamitasExhumingCondition: Принесите исходный предмет Серной ведьме после победы над Верховной Каламитас и выберите зачарование Exhumed.
+	ThoriumWorldgenChestReplacementCondition: Thorium помещает этот предмет в один из созданных сундуков данного типа; он есть не в каждом таком сундуке.
+	ThoriumHammerConversionCondition: Нажмите правой кнопкой по исходному предмету в инвентаре, чтобы преобразовать его в эту форму.
+	ThoriumRepellentServiceCondition: После того как Растерянный зомби проведёт полные день и ночь, заплатите 1 серебряную монету и получите один из пяти случайных репеллентов.
+	ThoriumChiLanternConfigCondition: Фонарь ци должен быть включён в серверных настройках Thorium.
+	AAModClassicStarfishOceanFloorCondition: Находится на дне океана.
+	AAModClassicPrismOreCondition: Добудьте естественно созданную призмовую руду киркой с мощностью не ниже 65%.
+	AAModClassicEquinoxOreCondition: Радиевая руда появляется в мире после победы над Равноденственными червями и при добыче даёт радиевую руду или руду тёмной материи.
+	AAModClassicDeveloperBagCondition: Можно получить, открыв эту сумку разработчика.
+	AAModClassicBigEWingsCondition: Проверка «Shiny» должна завершиться неудачей: шанс 4095 из 4096 обычно или 2047 из 2048 при наличии Shiny Charm.
+	AAModClassicBigEWingsSCondition: Проверка «Shiny» должна завершиться успешно: шанс 1 из 4096 обычно или 1 из 2048 при наличии Shiny Charm.
+	AAModClassicDeveloperPageCondition: Редкая награда разработчика при открытии этого мешка с сокровищами.
+	AAModClassicAshProofVestCondition: Если носить этот жилет ночью в Инферно до победы над Акумой, каждый тик есть шанс 1 к 3600, что он превратится в следующий жилет.
+	AAModClassicBlackLotusCondition: Сломайте растительность Трясины в мире, созданном с включённой опцией неофициального контента.
+	AAModClassicSoulStoneCondition: Бросьте куклу гоблина-инженера в лаву, когда рядом находится живой гоблин-инженер. NPC погибнет, и появится Камень души.
+	ThoriumCrystalWaveOceanCrystalCondition: Разбейте естественно созданный океанический кристалл в Водных глубинах.
+	VanillaForestFruitTreeSource: Лесные деревья
+	VanillaBorealFruitTreeSource: Деревья снежного биома
+	VanillaEbonwoodFruitTreeSource: Деревья Искажения
+	VanillaShadewoodFruitTreeSource: Деревья Багрянца
+	VanillaMahoganyFruitTreeSource: Деревья джунглей
+	VanillaPalmFruitTreeSource: Океанские пальмы
+	VanillaPearlwoodFruitTreeSource: Деревья Освящения
+	VanillaAshFruitTreeSource: Пепельные деревья Преисподней
+	SelectedItemFishingMethod: Можно выловить во время рыбалки.
+	SelectedItemShimmerMethod: Бросьте один из этих предметов в мерцание.
+	FishingLiquidCondition: Жидкость: {0}
+	FishingBiomeCondition: Биом: {0}
+	FishingDepthCondition: Глубина: {0}
+	FishingPoleCondition: Удочка: {0}
+	FishingBaitCondition: Наживка: {0}
+	FishingProgressionCondition: Доступно после этапа: {0}
+	FishingWorldCondition: Мир: {0}
+	FishingLiquidWater: Вода
+	FishingLiquidLava: Лава
+	FishingLiquidHoney: Мёд
+	FishingBiomeDefault: Вне особого биома
+	FishingWorldPreHardmode: До хардмода
+	FishingWorldHardmode: Хардмод
+	FishingWorldBloodMoon: Кровавая луна
+	FishingWorldDay: День
+	FishingWorldNight: Ночь
+	FishingWorldPostSkeletron: После победы над Скелетроном
+	FishingWorldCombatBook: После использования «Продвинутой боевой техники»
+	FishingWorldRemix: Сид Remix
+	FishingWorldNotTheBees: Сид Not the bees
+	FishingAnglerQuestCondition: Можно выловить, когда этот предмет выбран заданием Рыбака.
+	TownNpcAvailableAfterCondition: NPC становится доступен после этапа: {0}
+	TownNpcSpecialUnlockCondition: NPC требует спасения или другого особого разблокирования.
+	TownNpcInventoryCondition: Доступность NPC обнаружена при наличии требуемых предметов у игрока.
+	TownNpcPopulationCondition: Доступность NPC обнаружена после заселения других городских NPC.
+	TownNpcExpertModeCondition: NPC требует мир режима эксперта или мастера.
+	TownNpcMasterModeCondition: NPC требует мир режима мастера.
+	TownNpcAvailabilityUnknown: Доступность NPC не обнаружена в runtime-сценариях.
+	ShopObservedAfterCondition: Этот товар впервые обнаружен в магазине после этапа: {0}
+	NpcSpawnAvailabilityUnknown: Runtime-проверка не воспроизвела появление этого врага. Известные условия биома показаны значками бестиария выше.
+	NpcSpawnAvailableAfterCondition: Враг впервые обнаружен после этапа: {0}
+	NpcSpawnBiomeCondition: Наблюдаемый биом: {0}
+	NpcSpawnEventCondition: Наблюдаемое событие: {0}
+	NpcSpawnWaterCondition: Обнаружено появление в воде.
+	NpcSpawnSafeCondition: Обнаружено появление в безопасной зоне или перед стеной игрока.
+	NpcSpawnTownCondition: Обнаружено появление, когда игрок находился в городе.
+	NpcSpawnNoEvent: Без события
+	NpcSpawnEclipse: Солнечное затмение
+	NpcSpawnRain: Дождь
+	NpcSpawnSandstorm: Песчаная буря
+	NpcSpawnSlimeRain: Слизнепад
+	NpcSpawnGoblinArmy: Армия гоблинов
+	NpcSpawnFrostLegion: Морозный легион
+	NpcSpawnPirates: Нашествие пиратов
+	NpcSpawnMartians: Марсианское безумие
+	NpcSpawnPumpkinMoon: Тыквенная луна
+	NpcSpawnFrostMoon: Морозная луна
+	NpcSpawnFullMoon: Полнолуние
+	ThoriumDamselTrackerContractCondition: Выполнить контракт Следопыта «Дева в беде»
+	AAModClassicDefenderMedalShopCondition: Товар Армии Древнего за медали защитника
+	AAModClassicMartianCreditShopCondition: Товар Марсианского безумия за марсианские кредиты
+	AAModClassicLuckyPotionPotSource: Горшки
+	AAModClassicLuckyPotionPotCondition: Может редко выпасть из горшков, пока надета Счастливая рубашка Страйпмена; вид зелья зависит от расположения горшка
+	AAModClassicCarrotPlantSource: Растение моркови
+	AAModClassicCarrotPlantCondition: Естественно вырастает на траве на поверхности в сложном режиме; сломайте растение, чтобы получить морковь
+	AAModClassicAnubisBookExchangeSource: Анубис Летописец
+	AAModClassicAnubisBookExchangeCondition: Отдайте ему книгу «Жизнь и эпические приключения Анубиса, чудо-пса» после победы над Анубисом
+	VanillaDungeonBooksSource: Книги данжа
+	VanillaDungeonBooksCondition: Генерируется как особая синяя книга на книжных полках в данже
+	VanillaNaturesGiftPlantSource: Растение джунглей
+	VanillaNaturesGiftPlantCondition: Редко вырастает естественным образом на траве джунглей ниже поверхности
+	VanillaLifeFruitPlantSource: Растение плода жизни
+	VanillaLifeFruitPlantCondition: Вырастает естественным образом на траве джунглей в подземных джунглях
+	VanillaShadowOrbLocationCondition: Генерируется в подземных провалах Порчи
+	VanillaCrimsonHeartLocationCondition: Генерируется в подземных провалах Багрянца
+	ThoriumAloePlantSource: Растение алоэ в джунглях
+	ThoriumAloePlantCondition: Разрушьте растение алоэ среди зарослей джунглей
+	ThoriumManaBerryPlantSource: Растение мана-ягоды
+	ThoriumManaBerryPlantCondition: Редко вырастает под освящённой травой
+	ThoriumWaterChestnutPlantSource: Растительность Водных глубин
+	ThoriumWaterChestnutPlantCondition: Разрушьте естественно сгенерированную светящуюся растительность в Водных глубинах
+	ThoriumLivingLeafBushSource: Куст живой листвы
+	ThoriumLivingLeafBushCondition: Редко вырастает естественным образом на траве поверхности вдали от краёв мира
+	NpcSpawnOldOnesArmy: Армия Древнего
+	NpcSpawnGranite: Гранитная пещера
+	NpcSpawnMarble: Мраморная пещера
+	NpcSpawnSpiderCave: Паучья пещера
+	NpcSpawnTemple: Храм джунглей
+	NpcSpawnSolarPillar: Солнечная башня
+	NpcSpawnVortexPillar: Башня вихря
+	NpcSpawnNebulaPillar: Башня туманности
+	NpcSpawnStardustPillar: Башня звёздной пыли
+	SelectedItemSource: Источник
+	SelectedItemTrade: Торговля
+	SelectedItemChance: Шанс
+	SelectedItemExpertModeCondition: Режим эксперта или мастера
+	SelectedItemRightClickTileCondition: Нажмите ПКМ по объекту «{0}».
+	SelectedItemRightClickTileWithItemCondition: Нажмите ПКМ по объекту «{0}», имея в инвентаре «{1}».
+	SelectedItemBothEventsActiveCondition: Одновременно должны быть активны оба события: {0}.
+	SelectedItemNoNpcAliveCondition: "{0} не должен уже присутствовать в мире."
+	SelectedItemChargedTileCondition: Объект «{0}» должен быть заряжен.
+	SelectedItemBelowSurfaceCondition: Ниже поверхностного слоя
+	SelectedItemAfterAllMechanicalBossesCondition: После победы над всеми тремя механическими боссами
+	SelectedItemSpecialWorldGateCondition: Требуются оба условия: {0}; {1}.
+	SelectedItemZenithWorldCondition: Мир на сиде «Zenith»
+	SelectedItemWorldOptionCondition: Настройка мира: {0}
+	SelectedItemStack: Количество
+	SelectedItemFromItem: Из предмета
+	SelectedItemFromAnyEnemy: С любого моба
+	SelectedItemFromAnyBoss: С любого босса
+	SelectedItemClearTooltip: Сбросить выбор предмета
+	AnyFoodWellFed: Любая еда с эффектом «Сытость»
+	AnyFoodPlentySatisfied: Любая еда с эффектом «Плотно поев»
+	AnyFoodExquisitelyStuffed: Любая еда с эффектом «Изысканно объевшись»
+	CombatConsumablesTitle: Расходники
+	CombatConsumablesButton: Показать расходники
+	CombatConsumablesTooltip: Показать расходники
+	BuildEquipmentTitle: Экипировка
+	BuildConsumablesTitle: Расходники
+	BuildAllItemsTooltip:
+		'''
+		Показать все загруженные предметы.
+		Включая отсутствующие в профиле прогрессии.
+		'''
+	BuildProgressionItemsTooltip:
+		'''
+		Показывать только предметы,
+		доступные на выбранной стадии прогрессии.
+		'''
+	BuildSlotPrimaryWeapon: Основное оружие
+	BuildSlotSupportWeapon: Дополнительное оружие
+	BuildSlotClassSpecific: Классовый слот
+	BuildSlotRangedAmmo: Боеприпасы
+	BuildSlotSummonerUtility: Хлыст или поддержка
+	BuildSlotMagicUtility: Магический слот
+	BuildSlotArmorHead: Шлем
+	BuildSlotArmorBody: Нагрудник
+	BuildSlotArmorLegs: Поножи
+	BuildSlotAccessory: Аксессуар
+	BuildSlotPotion: Зелья
+	BuildSlotFood: Еда
+	BuildSlotFoodAlternative: Альтернатива еды
+	BuildAddAccessorySlotTooltip: Добавить слот аксессуара
+	BuildAddPotionSlotTooltip: Добавить слот зелья
+	BuildAddFoodAlternativeTooltip: Добавить альтернативную еду
+	BuildPickerEmpty: Для этого слота пока нет доступных предметов.
+	BuildPickerSearchEmpty: По поиску ничего не найдено.
+	BuildPickerGuideTab: Ванила
+	BuildPickerModTab: Моды
+	BuildPickerAllMods: Все
+	BuildPickerPowerDescTooltip: Сортировать по силе ↑
+	BuildPickerPowerAscTooltip: Сортировать по силе ↓
+	BuildPickerSortResetTooltip: Сбросить сортировку
+	BuildPickerFilterResetTooltip: Сбросить фильтры
+	BuildPickerSortMenuTooltip: Сортировка
+	BuildPickerFilterMenuTooltip: Фильтры
+	BuildPickerDamageMeleeTooltip: Ближний урон
+	BuildPickerDamageRangedTooltip: Дальний урон
+	BuildPickerDamageMagicTooltip: Магический урон
+	BuildPickerDamageSummonTooltip: Урон призывателя
+	BuildPickerDamageOtherTooltip: Другой урон
+	BuildPickerSearchHint: Поиск предметов
+	BuildPickerAlreadySelected: уже выбрано в другом слоте
+	BuildBackTooltip: Вернуться к сборкам
+	BuildSaveTooltip: Сохранить текущий билд в json
+	BuildSaveDialogTitle: Сохранение билда
+	BuildSaveDialogHint: Введите название билда
+	BuildSaveConfirm: Сохранить
+	BuildSaveCancel: Отмена
+	BuildSaveNameRequired: Введите название перед сохранением.
+	BuildSaveNoItems: Перед сохранением выберите хотя бы один предмет.
+	BuildSaveFailed: Не удалось сохранить билд в json.
+	BuildImportTooltip: Импорт
+	BuildImported: Билд импортирован {0}
+	BuildImportFailed: Не удалось импортировать билд.
+	BuildExportTooltip: Экспорт
+	BuildExportFileTooltip: Экспортировать в файл
+	BuildExportChatTooltip: Отправить билд в чат
+	BuildExported: Билд экспортирован {0}
+	BuildExportFailed: Не удалось экспортировать билд.
+	BuildSharedChatLabel: "[ ОТКРЫТЬ БИЛД: {0} ]"
+	BuildSharedChatMessage: "[c/8FCFFF:Progression Journal] {0}"
+	BuildSharedUnknownPlayer: Игрок
+	BuildSharedOpenTooltip: Кликните, чтобы открыть предпросмотр билда
+	BuildSharedAdd: Добавить
+	BuildSharedInvalid: Не удалось открыть билд из чата.
+	BuildUnloadedItem: Незагруженный предмет
+	BuildUnloadedItemTooltip: "{0} (незагруженный предмет)"
+	BuildEditTooltip: Редактировать билд
+	BuildFavoriteTooltip: Добавить в избранное
+	BuildFavoriteActiveTooltip: Убрать из избранного
+	BuildDeleteTooltip: Удалить билд
+	SavedBuildsEmpty: Для этого класса и этапа пока нет сохранённых билдов.
+
+	ClassDescriptions: {
+		Melee: Ближний бой и живучесть
+		Ranged: Дальний бой и точность
+		Magic: Заклинания и урон от маны
+		Summoner: Миньоны, хлысты и поддержка
+	}
+}
+
+Classes: {
+	Melee: Воин
+	Ranged: Стрелок
+	Magic: Маг
+	Summoner: Призыватель
+}
+
+Stages: {
+	PreBoss: Начало
+	PostKingSlime: Король слизней
+	PostEyeOfCthulhu: Глаз Ктулху
+	PostWorldEvil: Мировое зло
+	PostQueenBee: Королева пчёл
+	PostSkeletron: Скелетрон
+	PostDeerclops: Циклоп-олень
+	HardmodeEntry: Хардмод
+	PostQueenSlime: Королева слизней
+	PostOneMechBoss: 1 мех-босс
+	PostThreeMechBosses: 3 мех-босса
+	PostPlantera: Плантера
+	PostDukeFishron: Герцог Рыброн
+	PostEmpressOfLight: Императрица света
+	PostGolem: Голем
+	PostCelestialPillars: Башни
+	PostMoonLord: Мунлорд
+}
+
+Categories: {
+	Weapon: Оружие
+	Armor: Броня
+	Accessory: Аксессуары
+	ClassSpecific: Классовое
+	Buff: Боевые бафы
+	Ammunition: Боеприпасы
+	Support: Вспомогательное
+}
+
+Tiers: {
+	Recommended: Сильное
+	Additional: Рабочее
+	NotRecommended: Слабое
+	Useless: Очень слабое
+	FromGuide: Из гайда
+}
+
+ExternalConditions: {
+	CalamityMod: {
+		Misc: {
+			Tier1ArsenalRecipeCondition: Изучите незашифрованную схему из лаборатории возле Затонувшего моря
+			Tier2ArsenalRecipeCondition: Расшифруйте схему из лаборатории на большом планетоиде в небе
+			Tier3ArsenalRecipeCondition: Расшифруйте схему из лаборатории глубоко в джунглях
+			Tier4ArsenalRecipeCondition: Расшифруйте схему из лаборатории возле краёв преисподней
+			Tier5ArsenalRecipeCondition: Расшифруйте схему из лаборатории глубоко в ледяных пещерах
+			SunkenSeaSchematicRecipeCondition: Хотя бы раз положите в инвентарь схему из лаборатории возле Затонувшего моря
+			PlanetoidSchematicRecipeCondition: Хотя бы раз положите в инвентарь схему из лаборатории на большом планетоиде
+			JungleSchematicRecipeCondition: Хотя бы раз положите в инвентарь схему из лаборатории глубоко в джунглях
+			UnderworldSchematicRecipeCondition: Хотя бы раз положите в инвентарь схему из лаборатории возле краёв преисподней
+			IceSchematicRecipeCondition: Хотя бы раз положите в инвентарь схему из лаборатории в ледяных пещерах
+		}
+
+		Condition: {
+			Drops: {
+				CataclysmKilledLast: Выпадает, если Катаклизмическая конструкция побеждена последней
+				CatastropheKilledLast: Выпадает, если Катастрофическая конструкция побеждена последней
+				Cynosure: После победы над Дрейдоном и Каламитас
+				FirstKill: Выпадает только при первой победе
+				MechBoss: Выпадает при первой победе над последним механическим боссом
+				ProvidenceEnraged: Выпадает, если Провиденс была разгневана
+				ProvidenceChallenge: Выпадает, если Провиденс была побеждена только с Артефактом осквернённой души
+			}
+
+			HasFlareGun: При наличии улучшенной ракетницы в руках
+			LacewingBestiary: После заполнения не менее 40% Бестиария
+			CrescentMoons: Во время серповидной луны
+			GibbousMoons: Во время выпуклой луны
+			HasRogueArmor: При ношении брони разбойника
+			HasWings: При ношении крыльев
+			InAstral: В Астральном заражении
+			InCrag: В Серных скалах
+			InSulph: В Сернистом море
+			InSunken: В Затонувшем море
+			InRev: В режиме возмездия
+			InRevOrMM: В режиме возмездия или режиме мастера
+			HasFoundCorruptionEffigy: После получения Идола Искажения
+			HasFoundCrimsonEffigy: После получения Идола Багрянца
+			HasFoundUnstableGraniteCore: После получения Нестабильного гранитного ядра
+			HasFoundGladiatorsLocket: После получения Медальона гладиатора
+			HasFoundFrozenCube: После получения Замёрзшего куба
+			HasFoundTrinketOfChi: После получения Талисмана ци
+			HasFoundFungalSymbiote: После получения Грибного симбионта
+			HasFoundLuxorsGift: После получения Дара Луксора
+		}
+	}
+
+	AAModClassic: {
+		Common: {
+			Conditions: {
+				DownedRajah: После победы над Раджахом-кроликом
+				GoblinsDefeated: После победы над Армией гоблинов
+				GolemDefeated: После победы над Големом
+				InAnyInferno: В биоме Инферно
+				InAnyMire: В биоме Трясина
+				InAnyRedMushroom: В биоме Красных грибов
+				InAnyVoid: В биоме Пустота
+				InSunkenShipPreSoC: Возле затонувшего корабля после победы над всеми Древними
+				IsMaster: В режиме мастера
+				Unofficial: В неофициальных мирах
+				NotUnofficial: В обычных мирах
+				PostLateAncientsAndRemovedWorld: После поздних Древних
+				SpawnedBySubzeroSerpent: Когда Субнулевой змей отсутствует
+				OneMechDefeated: После победы над одним механическим боссом
+				SkeletronDefeated: После победы над Скелетроном
+			}
+		}
+	}
+
+	FargowiltasSouls: {
+		Conditions: {
+			RoombaPetSold: Когда в настройках включён питомец-румба
+			DownedEvilBoss: После победы над любым боссом зла
+			EMode: Шанс выпадения в режиме Вечности
+			EModeEarlyBirdHM: Шанс выпадения в хардмоде режима Вечности
+			EModeEarlyBirdPHM: Шанс выпадения до хардмода в режиме Вечности
+			EModeNotMaster: Шанс выпадения в режиме мастера или Вечности
+			NotEMode: Шанс выпадения вне режима Вечности
+			TimsConcoction: Шанс выпадения с Отваром Тима
+			Patreon: Награда Patreon
+			PatreonEMode: Награда Patreon в режиме Вечности
+			PatreonPlant: Награда Patreon в джунглях во время Кровавой луны
+			FirstKill: Выпадает при первой победе в режиме Вечности
+		}
+	}
+}
+
+ExternalConditionTypes: {
+	AAModClassic: {
+		GoblinsDefeated: После победы над Армией гоблинов
+		GolemDefeated: После победы над Големом
+		OneMechDefeated: После победы над одним механическим боссом
+		PostLateAncients: После поздних Древних
+		MasterMode: В режиме мастера
+		MasterModeDropRate: Шанс выпадения в режиме мастера
+		SkeletronDefeated: После победы над Скелетроном
+		SubzeroSerpentNotAlive: Когда Субнулевой змей отсутствует
+		OpenedDuringDay: При открытии днём
+		OpenedDuringNight: При открытии ночью
+		EquinoxWormsDefeated: После победы над Червями равноденствия
+	}
+
+	CalamityMod: {
+		Revengeance: Режим возмездия
+		ProvidenceChallenge:
+			'''
+			Выпадает, если Провиденс была побеждена только с Артефактом осквернённой души
+			Шанс выпадения в экспертном режиме
+			'''
+	}
+
+	FargowiltasSouls: {
+		FirstKill: Выпадает при первой победе в режиме Вечности
+		DownedEvilBoss: После победы над любым боссом зла
+		EMode: Шанс выпадения в режиме Вечности
+		EModeEarlyBirdHM: Шанс выпадения в хардмоде режима Вечности
+		EModeEarlyBirdPHM: Шанс выпадения до хардмода в режиме Вечности
+		EModeNotMaster: Шанс выпадения в режиме мастера или Вечности
+		NotEMode: Шанс выпадения вне режима Вечности
+		TimsConcoction: Шанс выпадения с Отваром Тима
+		PatreonPlant: Награда Patreon в джунглях во время Кровавой луны
+		Patreon: Награда Patreon
+		PatreonEMode: Награда Patreon в режиме Вечности
+	}
+
+	ThoriumMod: {
+		Underworld: Выпадает в Преисподней
+		AquaticDepthsHardmode: Выпадает в Водных глубинах в хардмоде
+		CookNotSellingEtherianGrog: Выпадает, пока Повар ещё не продаёт Этерианский грог
+		DownedFallenBeholder: Выпадает после победы над Павшим наблюдателем
+		DownedSkeletron: Выпадает после победы над Скелетроном
+		Desert: Выпадает в Пустыне
+		HardmodeUnderworld: Выпадает в Преисподней в хардмоде
+		BloodMoon: Выпадает во время Кровавой луны
+	}
+}
+
+Keybinds: {
+	ToggleProgressionJournal.DisplayName: Открыть журнал прогрессии
+	ExportActiveSnapshot.DisplayName: Разработка: экспортировать снапшот активного профиля
+}

@@ -1,0 +1,511 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+UI: {
+	Title: Progression 进度日志
+	Subtitle: 装备指南
+	Stage: 阶段
+	Class: 职业
+	InventoryButtonTooltip: 打开进度日志
+	OverviewTab: 装备
+	PresetsTab: 配装
+	BuildBuilderTab: 装备构建
+	StageSelectorTitle: BOSS进度
+	ProgressionModeToggleTooltip: 切换进度模式。启用后，未击败的BOSS会隐藏显示
+	LockedStageTooltip: 击败该 Boss 以解锁
+	StageConditionUnresolved: 解锁条件不可用；该阶段仍可访问
+	ClassSelectorTitle: 职业选择
+	LegendTitle: 推荐职业
+	OverviewHeadline: 当前阶段装备
+	OverviewDescription: 当前阶段下该职业所有已手动评级的物品
+	RecommendedBlock: 强力
+	AdditionalBlock: 可用
+	NotRecommendedBlock: 较弱
+	UselessBlock: 很弱
+	FromGuideBlock: 指南
+	WikiRecommendationsBlock: Wiki推荐
+	WikiRecommendationsTooltip: 自动生成自 "{0}"。推荐内容可能带有主观性、存在错误，或包含来自较早阶段的物品
+	NewEquipmentBlock: 新解锁装备
+	AnyMechanicalBossEquipmentBlock: 机械 Boss 通用装备
+	AnyMechanicalBossEquipmentTooltip: 击败第一个机械 Boss 后解锁
+	NoNewEquipment: 未找到该阶段的新物品
+	ProfileManagerTooltip: 选择进度配置
+	ProfileManagerTitle: 进度配置
+	ProfileClose: 关闭
+	ProfileVersionWarning: "[版本不一致]"
+	ProfileManagerWarning: 配置功能仍处于早期实验阶段，可能包含错误、后续会被修订，或随时间发生变化。部分物品可能被分配到错误的阶段。如有疑问，在此功能完善前请查阅可靠来源
+	PresetsHeadline: 配装规划
+	ClassPageTitle: 选择职业
+	StageProgress: 阶段 {0} / {1}
+	EntriesCount: 条目: {0}
+	PresetsCount: 配装: {0}
+	TierLegendRecommended: 该阶段最强选择之一
+	TierLegendAdditional: 该阶段可用选择
+	TierLegendNotRecommended: 该阶段较弱选择
+	TierLegendUseless: 几乎不值得考虑
+	EntryContains: 包含: {0}
+	EntrySingleItem: 单件物品
+	EntrySetCount: 套装: {0}
+	Weapons: 武器
+	ArmorLabel: 盔甲
+	ArmorSetFallbackName: "{0} 盔甲"
+	ArmorSetFallbackNameAfter: 盔甲  {0}
+	# Translators can extend these pipe-separated naming rules for their language.
+	ArmorSetPieceWords: armor|breastplate|cap|circlet|crown|greaves|hat|headgear|headpiece|helm|helmet|hood|leggings|mask|pants|shellmet|shirt|toga|visor
+	ArmorSetPiecePhrases: ""
+	ArmorSetNameInflections: ""
+	ArmorSetDefenseLabel: 总防御力
+	ArmorSetTotalStats: 盔甲部件效果
+	ArmorSetBonus: 套装奖励
+	ArmorSetBonusUnavailable: 无法确定套装奖励
+	Accessories: 饰品
+	SupportWeaponTag: 辅助
+	CombatBuffClassSpecificTag: 职业专属
+	None: 无
+	EmptyState: 该职业和阶段尚无指南条目
+	VanillaCombatBuffsTitle: 增益
+	CombatBuffsTitle: 新消耗品
+	CombatBuffStations: 站点
+	CombatBuffPassive: 环境
+	CombatBuffBasic: 专属/治疗
+	CombatBuffPotions: 增益药水
+	CombatBuffEternal: 永久增益
+	CombatBuffFood: 食物
+	CombatBuffFlasks: 药剂
+	SelectedItemEmpty: 未选择物品
+	SelectedItemSelectPrompt: 点击列表中的物品以查看其获取方式
+	ReadyBuildsEmpty: 该职业和阶段的现成配装尚未填写
+	SelectedItemNoData: 尚无法确定该物品的获取数据
+	SelectedItemCrafts: 制作
+	SelectedItemWorldGeneration: 世界生成
+	SelectedItemDrops: 掉落
+	SelectedItemShops: 商店
+	SelectedItemFishing: 钓鱼
+	SelectedItemShimmer: 微光
+	SelectedItemIngredients: 材料
+	SelectedItemStations: 制作站
+	SelectedItemDemonAltar: 恶魔祭坛 / 猩红祭坛
+	SelectedItemBottleStation: 放置的瓶子 / 炼药桌
+	SelectedItemConditions: 条件
+	MurasamaSecurityChestCondition: 鬼妖村正仅出现在地狱生物中心军械库实验室的安全宝箱中
+	AcidwoodTreeShakingSource: 酸木树
+	AcidwoodFruitTreeShakingCondition: 在硫磺海砍伐酸木树时有几率掉落
+	DeliciousMeatDivineSwineOfferingCondition: 携带 1 枚铂金币与该生物交互。金币会被消耗，该生物转化为该物品
+	DeliciousMeatDivineSwineAvailabilityCondition: 该生物自然出现在太空或高海拔区域。也可对猪或金猪使用净化粉生成
+	QualitySlopGluttonyBlenderInteractionCondition: 手持食物物品使用或攻击放置的暴食搅拌机。食物会被消耗，2 秒后掉落优质糊状物或恶心糊状物
+	QualitySlopGluttonyBlenderChanceCondition: 优质糊状物几率：食物增益持续分钟数 × 0.5%（吃得好）、× 0.75%（满足）或 × 1%（酒足饭饱）
+	GluttonyBlenderAvailabilityCondition: 狡猾的推销员始终以 10 金币出售暴食搅拌机
+	VanillaFruitTreeCuttingCondition: 砍伐此类型的树时有几率掉落：{0}
+	ModdedFruitTreeShakingCondition: 摇晃此类型的树时有几率掉落：{0}
+	ThoriumYewTreeSource: 紫杉树
+	ThoriumSnowyTreeSource: 雪树
+	ThoriumDeadTreeSource: 枯树
+	ThoriumSpookyTreeSource: 阴森树
+	ThoriumSakuraTreeSource: 樱花树
+	CalamityAstralTreeSource: 星幻树和星幻棕榈
+	CalamityAstralSnowTreeSource: 星幻雪树
+	CalamitasExhumingCondition: 击败至尊灾厄后，将源物品带给硫磺女巫并选择挖掘附魔
+	ThoriumWorldgenChestReplacementCondition: 瑟银将此物品放入此类型的生成宝箱中；并非每个宝箱中都有
+	ThoriumHammerConversionCondition: 在物品栏中右键点击源物品将其转换为此形态
+	ThoriumRepellentServiceCondition: 在困惑的僵尸观察过一整个昼夜后，支付 1 银币从五种驱虫剂中随机获得一种
+	ThoriumChiLanternConfigCondition: 需要在瑟银的服务器配置中启用气灯笼
+	AAModClassicStarfishOceanFloorCondition: 从海底收集
+	AAModClassicPrismOreCondition: 使用至少 65% 镐力的镐开采自然生成的棱镜矿
+	AAModClassicEquinoxOreCondition: 击败春分蠕虫后，镭矿出现在世界中，开采时掉落镭矿或暗物质矿
+	AAModClassicDeveloperBagCondition: 通过打开此开发者袋获得
+	AAModClassicBigEWingsCondition: 闪光检定必须失败：通常为 4096 分之 4095，携带闪光护符时为 2048 分之 2047
+	AAModClassicBigEWingsSCondition: 闪光检定必须成功：通常为 4096 分之 1，携带闪光护符时为 2048 分之 1
+	AAModClassicDeveloperPageCondition: 打开此宝藏袋时获得的稀有开发者奖励
+	AAModClassicAshProofVestCondition: 在击败阿库玛之前的夜晚穿着此背心在地狱中时，每 tick 有 3600 分之 1 的几率转化为下一件背心
+	AAModClassicBlackLotusCondition: 在启用了非官方内容选项创建的世界中破坏沼泽植被
+	AAModClassicSoulStoneCondition: 在附近有存活的哥布林工匠时，将哥布林工匠玩偶丢入熔岩。该 NPC 会被杀死，灵魂石会出现
+	ThoriumCrystalWaveOceanCrystalCondition: 在深海破坏自然生成的海洋水晶
+	VanillaForestFruitTreeSource: 森林树
+	VanillaBorealFruitTreeSource: 雪原生物群落树
+	VanillaEbonwoodFruitTreeSource: 腐化树
+	VanillaShadewoodFruitTreeSource: 猩红树
+	VanillaMahoganyFruitTreeSource: 丛林树
+	VanillaPalmFruitTreeSource: 海洋棕榈树
+	VanillaPearlwoodFruitTreeSource: 神圣树
+	VanillaAshFruitTreeSource: 地狱灰烬树
+	SelectedItemFishingMethod: 钓鱼时捕获
+	SelectedItemShimmerMethod: 将这些物品之一丢入微光
+	FishingLiquidCondition: 液体：{0}
+	FishingBiomeCondition: 生物群落：{0}
+	FishingDepthCondition: 深度：{0}
+	FishingPoleCondition: 钓竿：{0}
+	FishingBaitCondition: 鱼饵：{0}
+	FishingProgressionCondition: 可获取于：{0}
+	FishingWorldCondition: 世界：{0}
+	FishingLiquidWater: 水
+	FishingLiquidLava: 熔岩
+	FishingLiquidHoney: 蜂蜜
+	FishingBiomeDefault: 无特殊生物群落
+	FishingWorldPreHardmode: 困难模式前
+	FishingWorldHardmode: 困难模式
+	FishingWorldBloodMoon: 血月
+	FishingWorldDay: 白天
+	FishingWorldNight: 夜晚
+	FishingWorldPostSkeletron: 骷髅王后
+	FishingWorldCombatBook: 高级战斗技巧后
+	FishingWorldRemix: 混合种子
+	FishingWorldNotTheBees: 不是蜜蜂种子
+	FishingAnglerQuestCondition: 可作为当前渔夫任务鱼获取
+	TownNpcAvailableAfterCondition: NPC 可入住条件：{0}
+	TownNpcSpecialUnlockCondition: NPC 需要救援或其他特殊解锁条件
+	TownNpcInventoryCondition: NPC 可用性是在具备所需玩家物品栏的情况下观察到的
+	TownNpcPopulationCondition: NPC 可用性是在其他城镇 NPC 入住后观察到的
+	TownNpcExpertModeCondition: NPC 需要专家模式或大师模式世界
+	TownNpcMasterModeCondition: NPC 需要大师模式世界
+	TownNpcAvailabilityUnknown: 在运行时场景中未观察到 NPC 的可用性
+	ShopObservedAfterCondition: 此商店物品首次观察到于：{0}
+	NpcSpawnAvailabilityUnknown: 运行时生成流程未能重现此敌怪。已知生物群落条件显示在上方的怪物图鉴图标中
+	NpcSpawnAvailableAfterCondition: 敌怪首次观察到于：{0}
+	NpcSpawnBiomeCondition: 观察到的生物群落：{0}
+	NpcSpawnEventCondition: 观察到的事件：{0}
+	NpcSpawnWaterCondition: 观察到在水中生成
+	NpcSpawnSafeCondition: 观察到在安全/玩家墙壁区域生成
+	NpcSpawnTownCondition: 观察到在玩家处于城镇时生成
+	NpcSpawnNoEvent: 无事件
+	NpcSpawnEclipse: 日食
+	NpcSpawnRain: 雨
+	NpcSpawnSandstorm: 沙尘暴
+	NpcSpawnSlimeRain: 史莱姆雨
+	NpcSpawnGoblinArmy: 哥布林军队
+	NpcSpawnFrostLegion: 雪人军团
+	NpcSpawnPirates: 海盗入侵
+	NpcSpawnMartians: 火星暴乱
+	NpcSpawnPumpkinMoon: 南瓜月
+	NpcSpawnFrostMoon: 霜月
+	NpcSpawnFullMoon: 满月
+	ThoriumDamselTrackerContractCondition: 完成遇险少女追踪者契约
+	AAModClassicDefenderMedalShopCondition: 用护卫奖章购买的撒旦军队物品
+	AAModClassicMartianCreditShopCondition: 用火星点数购买的火星暴乱物品
+	AAModClassicLuckyPotionPotSource: 罐子
+	AAModClassicLuckyPotionPotCondition: 装备条纹侠的幸运衬衫时，有极低几率从罐子中掉落；药水类型取决于罐子的位置
+	AAModClassicCarrotPlantSource: 胡萝卜植物
+	AAModClassicCarrotPlantCondition: 在困难模式的地表草地上自然生长；破坏植物以获得胡萝卜
+	AAModClassicAnubisBookExchangeSource: 传奇抄写员阿努比斯
+	AAModClassicAnubisBookExchangeCondition: 击败阿努比斯后，将《神奇狗阿努比斯的生平与史诗冒险》交给他
+	VanillaDungeonBooksSource: 地牢书籍
+	VanillaDungeonBooksCondition: 作为特殊的蓝色书籍生成在地牢的书架上
+	VanillaNaturesGiftPlantSource: 丛林植物
+	VanillaNaturesGiftPlantCondition: 有极低几率自然生长在地表以下的丛林草上
+	VanillaLifeFruitPlantSource: 生命果植物
+	VanillaLifeFruitPlantCondition: 自然生长在地下丛林的丛林草上
+	VanillaShadowOrbLocationCondition: 生成在腐化之地的地下裂隙中
+	VanillaCrimsonHeartLocationCondition: 生成在猩红之地的地下裂隙中
+	ThoriumAloePlantSource: 芦荟丛林植物
+	ThoriumAloePlantCondition: 破坏丛林中发现的芦荟状植物碎屑
+	ThoriumManaBerryPlantSource: 魔力浆果植物
+	ThoriumManaBerryPlantCondition: 有极低几率生长在神圣草下方
+	ThoriumWaterChestnutPlantSource: 深海植被
+	ThoriumWaterChestnutPlantCondition: 破坏深海中自然生成的发光植被
+	ThoriumLivingLeafBushSource: 生命叶灌木
+	ThoriumLivingLeafBushCondition: 有极低几率自然生长在远离世界边缘的地表草地上
+	NpcSpawnOldOnesArmy: 撒旦军队
+	NpcSpawnGranite: 花岗岩洞穴
+	NpcSpawnMarble: 大理石洞穴
+	NpcSpawnSpiderCave: 蜘蛛洞
+	NpcSpawnTemple: 丛林神庙
+	NpcSpawnSolarPillar: 日耀柱
+	NpcSpawnVortexPillar: 星旋柱
+	NpcSpawnNebulaPillar: 星云柱
+	NpcSpawnStardustPillar: 星尘柱
+	SelectedItemSource: 来源
+	SelectedItemTrade: 交易
+	SelectedItemChance: 几率
+	SelectedItemExpertModeCondition: 专家或大师模式
+	SelectedItemRightClickTileCondition: 右键点击{0}
+	SelectedItemRightClickTileWithItemCondition: 在物品栏中有{1}时右键点击{0}
+	SelectedItemBothEventsActiveCondition: 两个事件必须同时激活：{0}
+	SelectedItemNoNpcAliveCondition: “{0}必须尚未存在”
+	SelectedItemChargedTileCondition: “{0}必须已充能”
+	SelectedItemBelowSurfaceCondition: 地表层以下
+	SelectedItemAfterAllMechanicalBossesCondition: 击败全部三个机械 Boss 后
+	SelectedItemSpecialWorldGateCondition: 需要同时满足两个条件：{0}；{1}
+	SelectedItemZenithWorldCondition: 天顶种子世界
+	SelectedItemWorldOptionCondition: 世界选项：{0}
+	SelectedItemStack: 数量
+	SelectedItemFromItem: 来自物品
+	SelectedItemFromAnyEnemy: 来自任意敌怪
+	SelectedItemFromAnyBoss: 来自任意 Boss
+	SelectedItemClearTooltip: 清除选中物品
+	AnyFoodWellFed: 任意带“吃得好”的食物
+	AnyFoodPlentySatisfied: 任意带“满足”的食物
+	AnyFoodExquisitelyStuffed: 任意带“酒足饭饱”的食物
+	CombatConsumablesTitle: 消耗品
+	CombatConsumablesButton: 显示消耗品
+	CombatConsumablesTooltip: 显示消耗品
+	BuildEquipmentTitle: 装备
+	BuildConsumablesTitle: 消耗品
+	BuildAllItemsTooltip:
+		'''
+		显示所有已加载的物品
+		包括未出现在进度配置中的物品
+		'''
+	BuildProgressionItemsTooltip:
+		'''
+		仅显示所选进度阶段
+		可获取的物品
+		'''
+	BuildSlotPrimaryWeapon: 主武器
+	BuildSlotSupportWeapon: 副武器
+	BuildSlotClassSpecific: 职业栏位
+	BuildSlotRangedAmmo: 弹药
+	BuildSlotSummonerUtility: 鞭子或辅助
+	BuildSlotMagicUtility: 魔法辅助
+	BuildSlotArmorHead: 头盔
+	BuildSlotArmorBody: 胸甲
+	BuildSlotArmorLegs: 护腿
+	BuildSlotAccessory: 饰品
+	BuildSlotPotion: 药水
+	BuildSlotFood: 食物
+	BuildSlotFoodAlternative: 食物替代
+	BuildAddAccessorySlotTooltip: 添加饰品栏位
+	BuildAddPotionSlotTooltip: 添加药水栏位
+	BuildAddFoodAlternativeTooltip: 添加食物替代
+	BuildPickerEmpty: 此栏位尚无可用物品
+	BuildPickerSearchEmpty: 没有匹配搜索的物品
+	BuildPickerGuideTab: 原版
+	BuildPickerModTab: 模组
+	BuildPickerAllMods: 全部
+	BuildPickerPowerDescTooltip: 按强度排序 ↑
+	BuildPickerPowerAscTooltip: 按强度排序 ↓
+	BuildPickerSortResetTooltip: 重置排序
+	BuildPickerFilterResetTooltip: 重置筛选
+	BuildPickerSortMenuTooltip: 排序
+	BuildPickerFilterMenuTooltip: 筛选
+	BuildPickerDamageMeleeTooltip: 近战伤害
+	BuildPickerDamageRangedTooltip: 远程伤害
+	BuildPickerDamageMagicTooltip: 魔法伤害
+	BuildPickerDamageSummonTooltip: 召唤伤害
+	BuildPickerDamageOtherTooltip: 其他伤害
+	BuildPickerSearchHint: 搜索物品
+	BuildPickerAlreadySelected: 已在其他栏位中选中
+	BuildBackTooltip: 返回配装
+	BuildSaveTooltip: 将当前配装保存为 json
+	BuildSaveDialogTitle: 保存配装
+	BuildSaveDialogHint: 输入配装名称
+	BuildSaveConfirm: 保存
+	BuildSaveCancel: 取消
+	BuildSaveNameRequired: 保存前请输入配装名称
+	BuildSaveNoItems: 保存前请至少选择一个物品
+	BuildSaveFailed: 保存配装 json 失败
+	BuildImportTooltip: 导入
+	BuildImported: 已导入配装 {0}
+	BuildImportFailed: 导入配装失败
+	BuildExportTooltip: 导出
+	BuildExportFileTooltip: 导出到文件
+	BuildExportChatTooltip: 发送配装到聊天
+	BuildExported: 已导出配装 {0}
+	BuildExportFailed: 导出配装失败
+	BuildSharedChatLabel: “[ 打开配装：{0} ]”
+	BuildSharedChatMessage: “[c/8FCFFF:进度日志] {0}”
+	BuildSharedUnknownPlayer: 玩家
+	BuildSharedOpenTooltip: 点击打开配装预览
+	BuildSharedAdd: 添加
+	BuildSharedInvalid: 无法从聊天中打开配装
+	BuildUnloadedItem: 未加载物品
+	BuildUnloadedItemTooltip: “{0}（未加载物品）”
+	BuildEditTooltip: 编辑配装
+	BuildFavoriteTooltip: 添加到收藏
+	BuildFavoriteActiveTooltip: 从收藏中移除
+	BuildDeleteTooltip: 删除配装
+	SavedBuildsEmpty: 该职业和阶段尚无已保存的配装
+
+	ClassDescriptions: {
+		Melee: 近距离与生存能力
+		Ranged: 距离与稳定伤害
+		Magic: 魔力、法术与爆发
+		Summoner: 仆从、鞭子与辅助
+	}
+}
+
+Classes: {
+	Melee: 战士
+	Ranged: 射手
+	Magic: 法师
+	Summoner: 召唤师
+}
+
+Stages: {
+	PreBoss: 开局
+	PostKingSlime: 史莱姆王
+	PostEyeOfCthulhu: 克苏鲁之眼
+	PostWorldEvil: 世界吞噬者
+	PostQueenBee: 蜂王
+	PostSkeletron: 骷髅王
+	PostDeerclops: 独眼巨鹿
+	HardmodeEntry: 肉山
+	PostQueenSlime: 史莱姆皇后
+	PostOneMechBoss: 1 个机械 Boss
+	PostThreeMechBosses: 3 个机械 Boss
+	PostPlantera: 世纪之花
+	PostDukeFishron: 猪龙鱼公爵
+	PostEmpressOfLight: 光之女皇
+	PostGolem: 石巨人
+	PostCelestialPillars: 天界柱
+	PostMoonLord: 月亮领主
+}
+
+Categories: {
+	Weapon: 武器
+	Armor: 盔甲
+	Accessory: 饰品
+	ClassSpecific: 职业专属
+	Buff: 战斗增益
+	Ammunition: 弹药
+	Support: 辅助
+}
+
+Tiers: {
+	Recommended: 强力
+	Additional: 可用
+	NotRecommended: 较弱
+	Useless: 很弱
+	FromGuide: 来自指南
+}
+
+ExternalConditions: {
+	CalamityMod: {
+		Misc: {
+			Tier1ArsenalRecipeCondition: 查看沉沦之海附近实验室的未加密蓝图
+			Tier2ArsenalRecipeCondition: 解密天空中大型星体实验室的蓝图
+			Tier3ArsenalRecipeCondition: 解密丛林深处实验室的蓝图
+			Tier4ArsenalRecipeCondition: 解密地狱边缘附近实验室的蓝图
+			Tier5ArsenalRecipeCondition: 解密冰冻洞穴深处实验室的蓝图
+			SunkenSeaSchematicRecipeCondition: 至少将一张沉沦之海附近实验室的蓝图放入物品栏一次
+			PlanetoidSchematicRecipeCondition: 至少将一张大型星体实验室的蓝图放入物品栏一次
+			JungleSchematicRecipeCondition: 至少将一张丛林深处实验室的蓝图放入物品栏一次
+			UnderworldSchematicRecipeCondition: 至少将一张地狱边缘附近实验室的蓝图放入物品栏一次
+			IceSchematicRecipeCondition: 至少将一张冰冻洞穴内实验室的蓝图放入物品栏一次
+		}
+
+		Condition: {
+			Drops: {
+				CataclysmKilledLast: 在灾难构造体之后击败时掉落
+				CatastropheKilledLast: 在灾祸构造体之后击败时掉落
+				Cynosure: 击败德雷登和灾厄后
+				FirstKill: 仅首次击杀时掉落
+				MechBoss: 最后一个机械 Boss 首次击杀时掉落
+				ProvidenceEnraged: 普罗维登斯被激怒时掉落
+				ProvidenceChallenge: 仅使用亵渎天神灵魂神器击败普罗维登斯时掉落
+			}
+
+			HasFlareGun: 持有信号枪升级版时
+			LacewingBestiary: 怪物图鉴完成度至少 40% 时
+			CrescentMoons: 娥眉月期间
+			GibbousMoons: 盈凸月期间
+			HasRogueArmor: 穿着盗贼盔甲时
+			HasWings: 穿着翅膀时
+			InAstral: 在星辉瘟疫中
+			InCrag: 在硫火之崖中
+			InSulph: 在硫磺海中
+			InSunken: 在沉沦之海中
+			InRev: 在复仇模式中
+			InRevOrMM: 在复仇模式或大师模式中
+			HasFoundCorruptionEffigy: 获得腐化雕像后
+			HasFoundCrimsonEffigy: 获得猩红雕像后
+			HasFoundUnstableGraniteCore: 获得不稳定的花岗岩核心后
+			HasFoundGladiatorsLocket: 获得角斗士吊坠后
+			HasFoundFrozenCube: 获得冰冻立方体后
+			HasFoundTrinketOfChi: 获得气之饰品后
+			HasFoundFungalSymbiote: 获得真菌共生体后
+			HasFoundLuxorsGift: 获得卢克索的礼物后
+		}
+	}
+
+	AAModClassic: {
+		Common: {
+			Conditions: {
+				DownedRajah: 击败拉贾兔后
+				GoblinsDefeated: 若哥布林军队已被击败
+				GolemDefeated: 若石巨人已被击败
+				InAnyInferno: 在地狱生物群落中
+				InAnyMire: 在泥沼生物群落中
+				InAnyRedMushroom: 在红蘑菇生物群落中
+				InAnyVoid: 在虚空生物群落中
+				InSunkenShipPreSoC: 击败所有远古者后，在沉船附近
+				IsMaster: 在大师模式中
+				Unofficial: 在非官方世界中
+				NotUnofficial: 在非非官方世界中
+				PostLateAncientsAndRemovedWorld: 后期远古者后
+				SpawnedBySubzeroSerpent: 若零下巨蛇当前未存活
+				OneMechDefeated: 若一个机械 Boss 已被击败
+				SkeletronDefeated: 若骷髅王已被击败
+			}
+		}
+	}
+
+	FargowiltasSouls: {
+		Conditions: {
+			RoombaPetSold: 当扫地机器人配置启用时
+			DownedEvilBoss: 击败任意邪恶 Boss 后
+			EMode: 永恒模式掉落率
+			EModeEarlyBirdHM: 困难模式永恒模式掉落率
+			EModeEarlyBirdPHM: 困难模式前永恒模式掉落率
+			EModeNotMaster: 这是大师/永恒模式掉落率
+			NotEMode: 非永恒模式掉落率
+			TimsConcoction: 蒂姆的调和物掉落率
+			Patreon: Patreon 掉落
+			PatreonEMode: 永恒模式中的 Patreon 掉落
+			PatreonPlant: 血月丛林中的 Patreon 掉落
+			FirstKill: 永恒模式中首次击杀时掉落
+		}
+	}
+}
+
+ExternalConditionTypes: {
+	AAModClassic: {
+		GoblinsDefeated: 若哥布林军队已被击败
+		GolemDefeated: 若石巨人已被击败
+		OneMechDefeated: 若一个机械 Boss 已被击败
+		PostLateAncients: 后期远古者后
+		MasterMode: 在大师模式中
+		MasterModeDropRate: 这是大师模式掉落率
+		SkeletronDefeated: 若骷髅王已被击败
+		SubzeroSerpentNotAlive: 若零下巨蛇当前未存活
+		OpenedDuringDay: 若在白天打开
+		OpenedDuringNight: 若在夜晚打开
+		EquinoxWormsDefeated: 若春分蠕虫已被击败
+	}
+
+	CalamityMod: {
+		Revengeance: 复仇模式
+		ProvidenceChallenge:
+			'''
+			仅使用亵渎天神灵魂神器击败普罗维登斯时掉落
+			这是专家模式掉落率
+			'''
+	}
+
+	FargowiltasSouls: {
+		FirstKill: 永恒模式中首次击杀时掉落
+		DownedEvilBoss: 击败任意邪恶 Boss 后
+		EMode: 永恒模式掉落率
+		EModeEarlyBirdHM: 困难模式永恒模式掉落率
+		EModeEarlyBirdPHM: 困难模式前永恒模式掉落率
+		EModeNotMaster: 这是大师/永恒模式掉落率
+		NotEMode: 非永恒模式掉落率
+		TimsConcoction: 蒂姆的调和物掉落率
+		PatreonPlant: 血月丛林中的 Patreon 掉落
+		Patreon: Patreon 掉落
+		PatreonEMode: 永恒模式中的 Patreon 掉落
+	}
+
+	ThoriumMod: {
+		Underworld: 在地狱中掉落
+		AquaticDepthsHardmode: 在困难模式的深海中掉落
+		CookNotSellingEtherianGrog: 若厨师尚未出售埃忒里亚格罗格酒时掉落
+		DownedFallenBeholder: 若堕落注视者已被击败时掉落
+		DownedSkeletron: 若骷髅王已被击败时掉落
+		Desert: 在沙漠中掉落
+		HardmodeUnderworld: 在困难模式地狱中掉落
+		BloodMoon: 在血月期间掉落
+	}
+}
+
+Keybinds: {
+	ToggleProgressionJournal.DisplayName: 切换进度日志
+	ExportActiveSnapshot.DisplayName: 开发者：导出当前配置快照
+}
