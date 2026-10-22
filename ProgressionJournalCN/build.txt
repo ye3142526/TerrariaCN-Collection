@@ -1,0 +1,5 @@
+displayName = ProgressionJournal汉化
+author = ye314
+version = 0.1
+weakReferences = ProgressionJournal
+translationMod = true
