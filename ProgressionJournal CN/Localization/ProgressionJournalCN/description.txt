@@ -1,0 +1,13 @@
+Progression Journal 简体中文汉化补丁
+
+这是为模组 Progression Journal 制作的简体中文翻译。
+
+【必需】
+必须同时订阅并启用原模组 Progression Journal，本汉化才会生效。
+
+【说明】
+- 翻译范围：界面文本、职业名称、阶段名称、物品提示等。
+- 若原模组更新，汉化可能暂时缺少新增内容的翻译，请留意更新。
+
+【致谢】
+感谢 Progression Journal 原作者制作了这个模组。
