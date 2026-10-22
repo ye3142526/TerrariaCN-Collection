@@ -10,7 +10,7 @@
 
 | 模组 | 汉化状态 | 创意工坊链接 |
 | --- | --- | --- |
-| Progression Journal | 持续更新 | https://steamcommunity.com/sharedfiles/filedetails/?id=3824019358 |
+| Progression Journal 汉化 | 持续更新 | https://steamcommunity.com/sharedfiles/filedetails/?id=3824019358 |
 
 ## 使用方法
 
